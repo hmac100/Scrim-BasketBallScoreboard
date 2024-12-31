@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1B244A;
+   
+    height: 100vh;
+}
+
+#home-score, #guest-score {
+    text-align: center;
+    background: #080001;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                           
+    font-size: 90px;
+    border-radius: 6px;
+    width: 155px;
+    height: 110px;
+    padding-top: 16px;
+    
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+     text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#btn-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap:12px;
+}
+button {
+    color: #9AABD8;
+    outline: 2px solid #9AABD8;
+    border-radius: 4px;
+    background-color: transparent;
+    width:45px;
+    height:45px;
+      font-family: 'Cursed Timer ULiL', sans-serif;   
+    font-size: 18px;
+}
+
+#new-game {
+     align-self: center;
+     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: green;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 10px;
+    color: #fff;
+    border: none;
+}
